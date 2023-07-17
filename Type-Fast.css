@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: midnightblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container {
+    width: 700px;
+    background-color: gold;
+    padding: 1.5rem;
+    max-width: 90%;
+    border-radius: 10px;
+}
+.timer {
+    position: absolute;
+    top: 4rem;
+    color: gold;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.scoreInfo {
+    position: absolute;
+    bottom: 4rem;
+    color: gold;
+    font-size: 1.2rem;
+}
+textarea {
+    width: 100%;
+    height: 7.5rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgb(255, 230, 90);
+    border: 2px rgba(181, 161, 53, 0.905) solid;
+    margin: auto;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    resize: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.quote-display {
+    margin-bottom: 1rem;
+    margin-left: calc(1rem + 2px);
+    margin-right: calc(1rem + 2px);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+    text-decoration: underline;
+}
+
+.unselectable {
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
